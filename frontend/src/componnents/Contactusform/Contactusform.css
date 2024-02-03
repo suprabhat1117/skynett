@@ -1,0 +1,36 @@
+#contact {
+  position: absolute;
+  top: 145%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+#contact .section-header {
+  text-align: center;
+}
+
+form#contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact input.form-control,
+#contact textarea.form-control,
+#contact button {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#contact button {
+  background-color: azure;
+}
+
+@media all and (max-width: 600px) {
+  form#contact-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

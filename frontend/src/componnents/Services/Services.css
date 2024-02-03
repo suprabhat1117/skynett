@@ -1,0 +1,43 @@
+.services {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services .heading {
+  text-align: center;
+}
+
+.services .row {
+  display: flex;
+  column-gap: 20px;
+}
+
+.card {
+  width: 33%;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+@media all and (max-width: 600px) {
+  .services {
+    width: 100%;
+  }
+
+  .services .row {
+    padding: 0px 20px;
+    overflow-x: scroll;
+  }
+
+  .card {
+    width: 380px;
+  }
+  .card img {
+    width: 380px;
+  }
+}
